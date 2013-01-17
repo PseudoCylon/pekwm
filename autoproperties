@@ -240,9 +240,12 @@ TypeRules {
  supports it.
 */
 Property = "^xterm,^XTerm" {
-	ApplyOn = "Start New"
+	ApplyOn = "New Reload Start"
 }
 DecorRules {
+	Property = "^xterm,^XTerm,,cal" {
+		Decor = "DEFAULT"
+	}
 	Property = "^xterm,^XTerm" {
 		Decor = "TERM"
 	}
