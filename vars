@@ -1,1 +1,1 @@
-$TERM="xterm -fn fixed +sb -bg white -fg black"
+$TERM="xterm -geometry 90x32"

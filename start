@@ -16,3 +16,7 @@
 # There's probably a few other good uses for it, too. I mainly pushed for it
 # because when I was doing fluxbox's docs, people used to complain that there
 # wasn't one, and I wanted to avoid that for pekwm. ;) --eyez
+
+xrandr --output LVDS1 --off &
+hsetroot -fill ~/Akkiy/wallpaper/sizu.jpg &
+xclock -fg white -bg \#325211 -hd white -hl white -norender &

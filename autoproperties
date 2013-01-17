@@ -146,15 +146,15 @@ Property = "^(gecko|Gecko|firefox-bin),^Firefox-bin,,^Customize Toolbar\$" {
  using the geometry in all its glory, defining the windows size in
  addition to its position.
 */
-# Property = "^xclock,^XClock" {
-# 	ApplyOn = "Start New"
-# 	ClientGeometry = "120x137+0-137"
-# 	Border = "False"; Titlebar = "False"
-# 	Sticky = "True"
-# 	Layer = "Desktop"
-# 	Skip = "Menus FocusToggle Snap"
-# }
-# 
+Property = "^xclock,^XClock" {
+	ApplyOn = "Start New"
+	ClientGeometry = "80x80+1840+1036"
+	Border = "False"; Titlebar = "False"
+	Sticky = "True"
+	Layer = "OnTop"
+	Skip = "Menus FocusToggle Snap"
+}
+
 # Property = "^xload,^XLoad" {
 # 	ApplyOn = "Start New"
 # 	ClientGeometry = "560x137+120-137"
@@ -172,7 +172,6 @@ Property = "^(gecko|Gecko|firefox-bin),^Firefox-bin,,^Customize Toolbar\$" {
 # 	Layer = "Desktop"
 # 	Skip = "Menus FocusToggle Snap"
 # }
-
 
 // End of autoproperties. -------------------------
 
