@@ -239,9 +239,12 @@ TypeRules {
  section found from your theme. Note that this _needs_ a theme that
  supports it.
 */
-# DecorRules {
-# 	Property = "^term,^xterm" {
-# 		Decor = "TERM"
-# 	}
-# }
+Property = "^xterm,^XTerm" {
+	ApplyOn = "Start New"
+}
+DecorRules {
+	Property = "^xterm,^XTerm" {
+		Decor = "TERM"
+	}
+}
 
