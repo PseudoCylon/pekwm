@@ -19,4 +19,5 @@
 
 xrandr --output LVDS1 --off &
 hsetroot -fill ~/Akkiy/wallpaper/sizu.jpg &
-xclock -fg white -bg \#325211 -hd white -hl white -norender &
+xclock -fg white -bg \#325211 -hd white -hl white -norender -geometry 80x80+1840+1010 &
+xclock -d -padding 4 -fg white -bg \#325211 -norender -geometry 80x30+1840+1086 &

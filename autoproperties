@@ -148,7 +148,6 @@ Property = "^(gecko|Gecko|firefox-bin),^Firefox-bin,,^Customize Toolbar\$" {
 */
 Property = "^xclock,^XClock" {
 	ApplyOn = "Start New"
-	ClientGeometry = "80x80+1840+1036"
 	Border = "False"; Titlebar = "False"
 	Sticky = "True"
 	Layer = "OnTop"
