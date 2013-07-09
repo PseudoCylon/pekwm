@@ -58,11 +58,15 @@ RootMenu = "Pekwm" {
 		}
 		Entry = "Reload" { Actions = "Reload" }
 		Entry = "Restart" { Actions = "Restart" }
-		Entry = "Exit" { Actions = "Exit" }
 		Submenu = "Exit to" {
 			Entry = "Xterm" { Actions = "RestartOther xterm" }
 			Entry = "TWM" { Actions = "RestartOther twm" }
 		}
+	}
+	Submenu = "System" {
+		Entry = "Logout" { Actions = "Exec $HOME/.pekwm/pekwm_exit 1" }
+		Entry = "Restart" { Actions = "Exec $HOME/.pekwm/pekwm_exit 2" }
+		Entry = "Shutdown" { Actions = "Exec $HOME/.pekwm/pekwm_exit 3" }
 	}
 }
 
